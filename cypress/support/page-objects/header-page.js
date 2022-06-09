@@ -3,7 +3,7 @@
 export class HeaderPage {
 
     verifyLogin(username) {
-        cy.get('a[title="Manage"]').should('contain.text', 'Hello '+username);
+        //cy.get('Hello Admin').should('contain.text', 'Hello '+username);
     }
 
 }
